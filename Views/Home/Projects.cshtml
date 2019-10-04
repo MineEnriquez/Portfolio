@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="~/css/style.css"/> <title>Portfolio Projects</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        .mybody {
+            /* background-image: url("{% static 'login_and_reg_app/img/capture.png' %}"); */
+            background-image: url("https://www.nasa.gov/specials/blackmarble/2016/globalmaps/BlackMarble_2016_01deg.jpg");
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .ninja {
+            background-image: url("~/img/NinjaPurple.png");
+
+        }
+    </style>
+</head>
+
+<body class="mybody">
+    <div class="wrapper ">
+        <div class="toolbar">
+            <h5 class="d-flex justify-content-around">
+                <a class="toolbarItem" href="/"> Home </a> | <a class="toolbarItem" href="/projects">Projects</a> | <a
+                    class="toolbarItem" href="/contact">Contact</a>
+            </h5>
+        </div>
+
+        <div>
+            <div class="d-flex justify-content-around">
+                <h2>Here are some projects of mine!</h2>
+            </div>
+            <div class="d-flex justify-content-around">
+                <div class="projectsContent">
+                    <table>
+                        <tr>
+                            <td>
+                                <img class="projectImage" src="~/img/robot.png" alt="">
+                            </td>
+                            <td>
+                                <h4>A great idea!</h4>
+                                <p>Sodales neque sodales ut etiam sit. Vulputate enim nulla aliquet porttitor lacus
+                                    luctus accumsan.
+                                    Pharetra massa massa ultricies mi quis hendrerit.
+                                    Pellentesque nec nam aliquam sem et tortor consequat.
+                                    Dui vivamus arcu felis bibendum ut tristique et.
+                                    Eu turpis egestas pretium aenean pharetra magna ac. </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img class="projectImage" src="~/img/idea.png" alt="">
+                            </td>
+                            <td>
+                                <h4>A great idea!</h4>
+                                <p>Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque.
+                                    Ut placerat orci nulla pellentesque dignissim enim sit amet venenatis. </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img class="projectImage" src="~/img/bulb.png" alt="">
+                            </td>
+                            <td>
+                                <h4>A great idea!</h4>
+                                <p>Dignissim suspendisse in est ante in. Ac turpis egestas integer eget.
+                                    Parturient montes nascetur ridiculus mus mauris vitae. Consequat nisl vel pretium
+                                    lectus quam.
+                                    Fames ac turpis egestas sed tempus urna. Pellentesque id nibh tortor id aliquet
+                                    lectus proin nibh. </p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

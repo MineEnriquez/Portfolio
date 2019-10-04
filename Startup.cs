@@ -14,25 +14,13 @@ namespace PortfolioOne
         // other code in Startup
         public Startup(IHostingEnvironment env)
         {
-            // run this in the debugger, and inspect the "env" object! You can use this object to tell you // the root path of your application, for the purposes of reading from local files, and for
-            // checking environment variables - such as if you are running in Development or Production
-
             Console.WriteLine(env.ContentRootPath);
             Console.WriteLine(env.IsDevelopment());
         }
-
-
-        // This method gets called by the runtime. Use this method to add services to the container.
-        // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
-        //add services for your project
-        //we can make objects available to our projects from everywhere
-        // only means that we can accept objects from wherever is needed.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
         }
-
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             //what kind of things does your app does
@@ -40,11 +28,7 @@ namespace PortfolioOne
             {
                 app.UseDeveloperExceptionPage();
             }
-
-            // app.Run(async (context) =>
-            // {
-            //     await context.Response.WriteAsync("Hello World!");
-            // });
+            app.UseStaticFiles();
             app.UseMvc();
         }
     }

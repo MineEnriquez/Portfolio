@@ -5,9 +5,9 @@ namespace PortfolioOne
     {
         [HttpGet]
         [Route("")]
-        public string Index()
+        public ViewResult Index()
         {
-            return "This is my Index!";
+            return View("Index");
         }
 
         [HttpGet]
@@ -15,14 +15,14 @@ namespace PortfolioOne
         public ViewResult Projects()
         {
             // Views
-            return View();
+            return View("projects");
         }
 
         [HttpGet]
         [Route("contact")]
-        public string Contact()
+        public ViewResult Contact()
         {
-            return "This is my contact ";
+            return View("contact");
         }
     }
 }

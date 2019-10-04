@@ -1,0 +1,110 @@
+.fixedTopRight{
+    float: right;
+    vertical-align: top;
+    }
+    
+    .toolbar{
+        width: 50%;
+        margin: 50px auto;
+        padding: 30px;
+    }
+    .toolbarItem{
+        width: 60px;
+    }
+    .contentHeader{
+        height: 100px;
+    }
+    .wrapper {
+        width: 60%;
+        margin: 50px auto;
+        padding: 30px;
+        background: whitesmoke;
+        border: 5px solid lightgrey;
+        opacity:0.9;
+    }
+    .halfwidth{
+        width: 50%;
+        margin: 10px;
+        padding: 10px;
+    }
+    .accessible {
+    text-decoration: underline;
+    }
+    
+    .greentext {
+        color: green;
+    }
+    .tablegrid {
+        width: 350px;
+        height: 400px;
+        margin: 5px;
+        padding: 5px;
+        overflow: scroll;
+    }
+    td {
+        padding: 10px;
+    }
+    .contentArea{
+        padding: 20px;
+        border: lightgray solid 3px;
+    }
+    .projectsContent{
+        width: 800px;
+        height: 400px;
+        margin: 5px;
+        padding: 5px;
+        overflow: scroll;
+        border: 5px solid lightgrey;
+    }
+    .projectImage{
+        width: 120px;
+ 
+    }
+
+    .mainContent {
+        width: 50%;
+    }
+    .dropdown {
+        margin: 10px 10px;
+        height: 40px;
+    }
+    
+    .sidebyside {
+        display: inline-block;
+    }
+    .top {
+        vertical-align: top;    
+    }
+    
+    .floatcenter{
+        margin: 20px 40%;
+    }
+    .centeredText {
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .right{
+        float: right;
+        margin: 20px;
+    }
+    .recordinfo, .bookinfo {
+        width: 90%;
+        margin: 50px auto;
+        padding: 10px;  
+        text-align: left;
+        vertical-align: top;
+    }
+    
+    .textarea {
+        height: 200px; 
+    }
+
+    .sidetoside {
+        min-width: 90%;
+        overflow: scroll;
+    }
+    .LabelLetters{
+        font-size: larger;
+        font-weight: 600;
+    }

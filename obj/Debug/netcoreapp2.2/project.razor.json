@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Git\\BOOTCAMP\\CodingDojo\\Bootcamp_secondstack\\ASPNet\\PortfolioOne\\PortfolioOne.csproj",
+  "FilePath": "c:\\Git\\BOOTCAMP\\CodingDojo\\Bootcamp_secondstack\\ASPNet\\Portfolio\\PortfolioOne.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -2963,6 +2963,16 @@
     {
       "FilePath": "Views\\Home\\index.cshtml",
       "TargetPath": "Views\\Home\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\Home\\Projects.cshtml",
+      "TargetPath": "Views\\Home\\Projects.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\Home\\Contact.cshtml",
+      "TargetPath": "Views\\Home\\Contact.cshtml",
       "FileKind": "mvc"
     }
   ],

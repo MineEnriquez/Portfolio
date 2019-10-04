@@ -12082,11 +12082,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Git\\BOOTCAMP\\CodingDojo\\Bootcamp_secondstack\\ASPNet\\PortfolioOne\\PortfolioOne.csproj",
+      "projectUniqueName": "C:\\Git\\BOOTCAMP\\CodingDojo\\Bootcamp_secondstack\\ASPNet\\Portfolio\\PortfolioOne.csproj",
       "projectName": "PortfolioOne",
-      "projectPath": "C:\\Git\\BOOTCAMP\\CodingDojo\\Bootcamp_secondstack\\ASPNet\\PortfolioOne\\PortfolioOne.csproj",
+      "projectPath": "C:\\Git\\BOOTCAMP\\CodingDojo\\Bootcamp_secondstack\\ASPNet\\Portfolio\\PortfolioOne.csproj",
       "packagesPath": "C:\\Users\\minee\\.nuget\\packages\\",
-      "outputPath": "C:\\Git\\BOOTCAMP\\CodingDojo\\Bootcamp_secondstack\\ASPNet\\PortfolioOne\\obj\\",
+      "outputPath": "C:\\Git\\BOOTCAMP\\CodingDojo\\Bootcamp_secondstack\\ASPNet\\Portfolio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
